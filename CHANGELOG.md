@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.0.2...v1.1.0) (2020-03-30)
+
+
+### Features
+
+* use wrapRootElement instead of wrapPageElement ([1ce28f4](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/commit/1ce28f4))
+
 ## [1.0.2](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.0.1...v1.0.2) (2020-03-30)
 
 
