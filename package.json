@@ -1,0 +1,92 @@
+{
+  "name": "gatsby-plugin-breakpoints",
+  "version": "0.0.0-development",
+  "description": "Gatsby plugin providing breakpoints using React Hooks",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-plugin-breakpoints",
+    "breakpoints",
+    "media query",
+    "media queries",
+    "hooks",
+    "responsive"
+  ],
+  "main": "index.js",
+  "author": "Jimmy Beldone <dev.jimmy.beldone@gmail.com>",
+  "homepage": "https://github.com/JimmyBeldone/gatsby-plugin-breakpoints",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JimmyBeldone/gatsby-plugin-breakpoints.git"
+  },
+  "bugs": {
+    "email": "dev.jimmy.beldone@gmail.com",
+    "url": "https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/issues"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "eslint src --fix",
+    "pretty": "prettier --write 'src/**/*.js'",
+    "test": "jest --coverage",
+    "prepare": "yarn clean && cross-env NODE_ENV=production yarn build",
+    "clean": "rimraf ./dist",
+    "build": "babel src --out-dir dist --ignore 'src/**/*.spec.js','src/**/*.test.js'",
+    "semantic-release": "semantic-release"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "25.2.4",
+    "babel-preset-gatsby-package": "^0.3.1",
+    "commitizen": "4.0.3",
+    "cross-env": "7.0.2",
+    "cz-conventional-changelog": "3.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-config-prettier": "6.10.1",
+    "eslint-config-universe": "^2.3.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-jest": "23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "4.2.3",
+    "jest": "25.2.4",
+    "lint-staged": "10.1.0",
+    "prettier": "2.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "rimraf": "3.0.2",
+    "semantic-release": "^17.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{src}/**/*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.20.9",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1"
+  }
+}
