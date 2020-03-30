@@ -61,3 +61,8 @@ typings/
 .next
 
 dist
+
+BreakpointProvider.js
+constants.js
+gatsby-browser.js
+index.js

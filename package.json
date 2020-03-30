@@ -28,9 +28,8 @@
     "lint": "eslint src --fix",
     "pretty": "prettier --write 'src/**/*.js'",
     "test": "echo 'No test specified'",
-    "prepare": "yarn clean && cross-env NODE_ENV=production yarn build",
-    "clean": "rimraf ./dist",
-    "build": "babel src --out-dir dist --ignore 'src/**/*.spec.js','src/**/*.test.js'",
+    "prepare": "cross-env NODE_ENV=production yarn build",
+    "build": "babel src --out-dir .",
     "semantic-release": "semantic-release"
   },
   "license": "MIT",

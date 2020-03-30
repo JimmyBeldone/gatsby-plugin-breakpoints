@@ -1,2 +1,7 @@
 node_modules/*
 dist/*
+
+BreakpointProvider.js
+constants.js
+gatsby-browser.js
+index.js
