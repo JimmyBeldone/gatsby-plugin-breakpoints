@@ -1,3 +1,3 @@
 import { useBreakpoint } from './BreakpointProvider';
 
-export default useBreakpoint;
+export { useBreakpoint };

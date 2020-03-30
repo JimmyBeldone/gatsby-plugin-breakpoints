@@ -69,7 +69,7 @@ This hook provides four default breakpoints as **boolean** :
 ```javascript
 /* yourComponentOrPage.js */
 
-import useBreakpoint from 'gatsby-plugin-breakpoints';
+import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
 import MobileOnlyComponent from './your/component/path'
 // ...

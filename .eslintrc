@@ -1,5 +1,5 @@
 {
-    "extends": ["universe/node", "universe/web", "plugin:jsx-a11y/recommended"],
+    "extends": ["plugin:jsx-a11y/recommended"],
     "plugins": ["prettier", "react", "jsx-a11y"],
     "parser": "babel-eslint",
     "rules": {
