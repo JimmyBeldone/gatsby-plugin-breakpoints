@@ -62,7 +62,8 @@ typings/
 
 dist
 
-BreakpointProvider.js
-constants.js
-gatsby-browser.js
-index.js
+/BreakpointProvider.js
+/constants.js
+/gatsby-browser.js
+/gatsby-ssr.js
+/index.js
