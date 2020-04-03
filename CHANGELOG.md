@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.1.0...v1.1.1) (2020-04-03)
+
+
+### Bug Fixes
+
+* Add gatsby-ssr.js ([8f30e2d](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/commit/8f30e2d))
+
 # [1.1.0](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.0.2...v1.1.0) (2020-03-30)
 
 
