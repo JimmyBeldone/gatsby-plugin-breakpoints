@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.1.1...v1.1.2) (2020-04-28)
+
+
+### Bug Fixes
+
+* update yarn lock ([c83ce08](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/commit/c83ce08df45a632aedb91925e8654d9b709cb5e8))
+
 ## [1.1.1](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.1.0...v1.1.1) (2020-04-03)
 
 
