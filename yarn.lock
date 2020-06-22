@@ -2822,10 +2822,10 @@ eslint-config-prettier@6.11.0, eslint-config-prettier@^6.10.1:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-universe@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-universe/-/eslint-config-universe-3.0.1.tgz#b2bc3afdccfdd9a61e77ea71f8e9069e58d30821"
-  integrity sha512-DwSfu+rFjgfrMpXWaKXYot3vSA75dGUmHss+9l9qeMhnGSvW6jGKQB6s2MOaOUSGP04U1CUz+4p1P7XD3Il1SQ==
+eslint-config-universe@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-universe/-/eslint-config-universe-3.0.2.tgz#3826eea50d45652fcf584fa5661a62dfd08f2578"
+  integrity sha512-TngcGMLalWNkZa7wlzMhur2yQ+0/2znGYbJF6FqNgiq3J9ZO1K+6ir8v0bY18n/SOkMCIdrSlbTkHriRhBe98A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.26.0"
     "@typescript-eslint/parser" "^2.26.0"
