@@ -4,7 +4,7 @@ import React from 'react';
 import { defaultQueries } from './constants';
 import { BreakpointProvider } from './BreakpointProvider';
 
-exports.wrapRootElement = ({ element }, { queries = null }) => {
+export const wrapRootElement = ({ element }, { queries = null }) => {
     return (
         <BreakpointProvider
             queries={queries !== null ? queries : defaultQueries}
