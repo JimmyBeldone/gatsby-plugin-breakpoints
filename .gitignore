@@ -67,3 +67,4 @@ dist
 /gatsby-browser.js
 /gatsby-ssr.js
 /index.js
+/withBreakpoints.js 

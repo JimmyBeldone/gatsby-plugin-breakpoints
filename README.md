@@ -55,6 +55,8 @@ module.exports = {
 
 ## Usage
 
+### Functional Components
+
 Import the `useBreakpoint` hook anywhere in your app.
 
 This hook provides four default breakpoints as **boolean** :
@@ -67,7 +69,7 @@ This hook provides four default breakpoints as **boolean** :
 | l     | max-width: 1536px |
 
 ```javascript
-/* yourComponentOrPage.js */
+/* yourFunctionalComponentOrPage.js */
 
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
@@ -89,6 +91,42 @@ const MyComponent = () => {
 }
 
 export default MyComponent;
+```
+
+### Class Components
+
+Import the `withBreakpoints` Higher Order Component anywhere in your app.
+
+This HOC adds a `breakpoints` props to your component, providing four default breakpoints as **boolean** :
+
+| name  | breakpoints       |
+|---    |---                |
+| xs    | max-width: 320px  |
+| sm    | max-width: 720px  |
+| md    | max-width: 1024px |
+| l     | max-width: 1536px |
+
+```javascript
+/* yourClassComponent.js */
+
+import { withBreakpoints } from 'gatsby-plugin-breakpoints';
+
+import MobileOnlyComponent from './your/component/path'
+// ...
+
+class Test extends React.Component {
+    render() {
+        const { breakpoints } = this.props;
+        {/* <MobileOnlyComponent /> will only be displayed if max-width <= 320px  */}
+        return breakpoints.xs ? (
+            <MobileOnlyComponent />
+        ) : (
+            <div>Content hidden only on mobile</div>
+        );
+    }
+}
+
+export default withBreakpoints(Test);
 ```
 
 ## Options
