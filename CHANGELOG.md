@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.2.3...v1.2.4) (2020-09-28)
+
+
+### Bug Fixes
+
+* new ci ([fbd7498](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/commit/fbd74989a9419381b0073039493cacaa7e245ee3))
+
 ## [1.2.3](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.2.2...v1.2.3) (2020-09-28)
 
 

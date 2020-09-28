@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-breakpoints",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Gatsby plugin providing breakpoints using React Hooks",
   "keywords": [
     "gatsby",
