@@ -168,6 +168,14 @@ const defaultQueries = {
 };
 ```
 
+### Note (only for test)
+
+If you need to import `<BreakpointProvider />` for testing you can do it like so :
+
+```javascript
+import { BreakpointProvider } from 'gatsby-plugin-breakpoints'
+```
+
 ## Contributing
 
 Contributions are welcome ! See [contributing guidelines](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/blob/master/CONTRIBUTING.md)
