@@ -2,8 +2,11 @@
 <h3 align="center">Gatsby plugin providing breakpoints using React Hooks</h3>
 
 <p align="center">
-    <a href="https://travis-ci.com/JimmyBeldone/gatsby-plugin-breakpoints">
-        <img alt="travis build" src="https://travis-ci.com/JimmyBeldone/gatsby-plugin-breakpoints.svg?branch=master">
+    <a href="https://github.com/JimmyBeldone/gatsby-plugin-breakpoints">
+        <img alt="travis build" src="https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/workflows/TESTING/badge.svg">
+    </a>
+    <a href="https://github.com/JimmyBeldone/gatsby-plugin-breakpoints">
+        <img alt="travis build" src="https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/workflows/PUBLISH/badge.svg">
     </a>
     <a href="https://www.npmjs.com/package/gatsby-plugin-breakpoints">
         <img alt="npm version" src="https://badgen.net/npm/v/gatsby-plugin-breakpoints">
