@@ -1,3 +1,11 @@
+## [1.2.3](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.2.2...v1.2.3) (2020-09-28)
+
+
+### Bug Fixes
+
+* export BreakpointProvider ([8271c9a](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/commit/8271c9a074000576eadce0b27e0a5cbd5da8b514))
+* update dependencies ([0f2da0f](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/commit/0f2da0f2af968cd36e16d35e26968dc2be3de095))
+
 ## [1.2.2](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.2.1...v1.2.2) (2020-08-13)
 
 
