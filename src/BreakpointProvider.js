@@ -74,4 +74,4 @@ function useBreakpoint() {
     return context;
 }
 
-export { useBreakpoint, BreakpointProvider };
+export { useBreakpoint, BreakpointProvider, BreakpointContext };
