@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.2.6...v1.3.0) (2020-11-30)
+
+
+### Features
+
+* expose BreakpointContext ([a7619cf](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/commit/a7619cf88d3469f168e422fc31bffa8886ace6be))
+
 ## [1.2.6](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.2.5...v1.2.6) (2020-11-23)
 
 
