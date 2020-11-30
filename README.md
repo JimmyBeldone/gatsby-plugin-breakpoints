@@ -50,10 +50,8 @@ Include the plugin in your `gatsby-config.js` file :
 /* gatsby-config.js */
 
 module.exports = {
-  plugins: [
-      "gatsby-plugin-breakpoints"
-  ]
-}
+    plugins: ['gatsby-plugin-breakpoints'],
+};
 ```
 
 ## Usage
@@ -64,34 +62,33 @@ Import the `useBreakpoint` hook anywhere in your app.
 
 This hook provides four default breakpoints as **boolean** :
 
-| name  | breakpoints       |
-|---    |---                |
-| xs    | max-width: 320px  |
-| sm    | max-width: 720px  |
-| md    | max-width: 1024px |
-| l     | max-width: 1536px |
+| name | breakpoints       |
+| ---- | ----------------- |
+| xs   | max-width: 320px  |
+| sm   | max-width: 720px  |
+| md   | max-width: 1024px |
+| l    | max-width: 1536px |
 
 ```javascript
 /* yourFunctionalComponentOrPage.js */
 
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
-import MobileOnlyComponent from './your/component/path'
+import MobileOnlyComponent from './your/component/path';
 // ...
 
 const MyComponent = () => {
-  const breakpoints = useBreakpoint();
+    const breakpoints = useBreakpoint();
 
-  return (
-    <AnyComponent>
-      {/* Anything */}
+    return (
+        <AnyComponent>
+            {/* Anything */}
 
-      {/* <MobileOnlyComponent /> will only be displayed if max-width <= 320px  */}
-      {breakpoints.xs ? <MobileOnlyComponent /> : null}
-
-    </AnyComponent>
-  )
-}
+            {/* <MobileOnlyComponent /> will only be displayed if max-width <= 320px  */}
+            {breakpoints.xs ? <MobileOnlyComponent /> : null}
+        </AnyComponent>
+    );
+};
 
 export default MyComponent;
 ```
@@ -102,25 +99,27 @@ Import the `withBreakpoints` Higher Order Component anywhere in your app.
 
 This HOC adds a `breakpoints` props to your component, providing four default breakpoints as **boolean** :
 
-| name  | breakpoints       |
-|---    |---                |
-| xs    | max-width: 320px  |
-| sm    | max-width: 720px  |
-| md    | max-width: 1024px |
-| l     | max-width: 1536px |
+| name | breakpoints       |
+| ---- | ----------------- |
+| xs   | max-width: 320px  |
+| sm   | max-width: 720px  |
+| md   | max-width: 1024px |
+| l    | max-width: 1536px |
 
 ```javascript
 /* yourClassComponent.js */
 
 import { withBreakpoints } from 'gatsby-plugin-breakpoints';
 
-import MobileOnlyComponent from './your/component/path'
+import MobileOnlyComponent from './your/component/path';
 // ...
 
 class Test extends React.Component {
     render() {
         const { breakpoints } = this.props;
-        {/* <MobileOnlyComponent /> will only be displayed if max-width <= 320px  */}
+        {
+            /* <MobileOnlyComponent /> will only be displayed if max-width <= 320px  */
+        }
         return breakpoints.xs ? (
             <MobileOnlyComponent />
         ) : (
@@ -176,7 +175,13 @@ const defaultQueries = {
 If you need to import `<BreakpointProvider />` for testing you can do it like so :
 
 ```javascript
-import { BreakpointProvider } from 'gatsby-plugin-breakpoints'
+import { BreakpointProvider } from 'gatsby-plugin-breakpoints';
+```
+
+In case you need full context, you can import it too :
+
+```javascript
+import { BreakpointContext } from 'gatsby-plugin-breakpoints';
 ```
 
 ## Contributing
