@@ -2951,10 +2951,10 @@ eslint-config-prettier@^6.11.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-universe@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-universe/-/eslint-config-universe-6.0.0.tgz#5dabf419b2b526df44c3d44004f6b1d8d1d4478f"
-  integrity sha512-81YcueKEkDhS7BigUKodkm3ieSl+ZvNKg8ynFKuLC+Zk2icvv6qsssGdphlElUPXNtON6IqDhKglmrY4Kz9ewg==
+eslint-config-universe@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-universe/-/eslint-config-universe-6.0.1.tgz#e9e2cbb72347a40f4248eefda19c1fed42593c90"
+  integrity sha512-3YPX4wanSCfCdiky2JhBXoBjwKg6KZfHj3LQecVoFAHOAiw7eIhm3kbRa3IHy6/if59sa09ooZuHBu4YXivYCw==
   dependencies:
     "@babel/eslint-parser" "^7.11.5"
     "@babel/eslint-plugin" "^7.11.5"
