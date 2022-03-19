@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.3.6...v1.3.7) (2022-03-19)
+
+
+### Bug Fixes
+
+* 🐛 update dependencies ([0a32541](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/commit/0a325417b550d094535919ff5241b3b85262ed77))
+
 ## [1.3.6](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.3.5...v1.3.6) (2021-11-11)
 
 
