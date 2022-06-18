@@ -59,7 +59,7 @@
     "lint-staged": "12.3.7",
     "prettier": "2.6.0",
     "prop-types": "15.8.1",
-    "react": "17.0.2",
+    "react": "18.2.0",
     "rimraf": "3.0.2",
     "semantic-release": "19.0.2"
   },
@@ -80,6 +80,6 @@
   "peerDependencies": {
     "gatsby": "^2.0.0 || ^3.0.0 || ^4.0.0",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1 || ^17.0.0"
+    "react": "^16.13.1 || ^17.0.0 || ^18.0.0"
   }
 }
