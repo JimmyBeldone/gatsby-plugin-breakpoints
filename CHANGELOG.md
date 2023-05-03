@@ -1,3 +1,10 @@
+## [1.3.10](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.3.9...v1.3.10) (2023-05-03)
+
+
+### Bug Fixes
+
+* 🐛 Gatsby v5 peerDependency ([1c5f099](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/commit/1c5f099b6fe83a275e6527c0b8f2908f7946672e))
+
 ## [1.3.9](https://github.com/JimmyBeldone/gatsby-plugin-breakpoints/compare/v1.3.8...v1.3.9) (2022-10-17)
 
 
